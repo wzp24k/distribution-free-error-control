@@ -1,0 +1,4 @@
+norm,family,alpha,method,n_eval,n_units,n_classifiers,mean_accept,review_frac,frac_nonvacuous,mean_accept_nonvac,risk_nonvac,coverage,coverage_lo,coverage_hi,coverage_nonvac,n_over_budget,cells_tested,cells_accepted
+log1p_z,ext_cellsplit,0.05,crc,50,5,1,0.6412779999999999,0.3587220000000001,1.0,0.6412779999999999,0.03840622365164775,0.98,0.94,1.0,0.98,1,500000,320639
+log1p_z,ext_cellsplit,0.1,crc,50,5,1,0.829362,0.17063799999999996,1.0,0.829362,0.08614166166720753,1.0,1.0,1.0,1.0,0,500000,414681
+log1p_z,ext_cellsplit,0.2,crc,50,5,1,0.995128,0.0048719999999999875,1.0,0.995128,0.15117589561597208,1.0,1.0,1.0,1.0,0,500000,497564

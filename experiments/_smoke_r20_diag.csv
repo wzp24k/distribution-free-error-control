@@ -1,0 +1,2 @@
+family,unit,alpha,n_pool,n_cal_src,accept_src,accept_gap_lf,ks_scores,auc_feat_max,median_shift,rho_star_unit,k_star_unit,k_first_unit,k_censored,k_max_balanced,accept_oracle_k0,accept_src_k0,ratio_src_oracle_k0,accept_gap_k0
+transfer,Breast_Jun0524_to_CRC_Feb2623_fold0,0.1,2329,1175,0.7508229569199942,-0.196978461519722,0.38581986607346774,0.8374106319030175,-0.1663811206817627,-1.0,-1,-1,1,0,0.11764705882352941,0.7508229569199943,6.381995133819952,-0.6331758980964649

@@ -1,0 +1,2 @@
+tag,pin,tol,clfs,reps,seed,limit,n_rows,n_units,n_skipped,wall_s,finished,py_exe
+smoke_pin1,1,0.0001,"logreg,rf,hgb",1,0,10,150,10,0,134.9,2026-09-27 15:12:50,C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe

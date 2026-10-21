@@ -1,0 +1,3 @@
+unit_tag,n_panel,panel,n_shared_classes,shared_classes,n_source_cells,n_target_cells
+ext_transfer:STELLAR_Intestine_B004->STELLAR_Tonsil,26,BCL2|CD11c|CD138|CD15|CD163|CD206|CD21|CD3|CD31|CD34|CD36|CD38|CD4|CD45|CD56|CD57|CD68|CD8|CHGA|CK7|HLADRDPDQ|Keratin|MUC1|Podoplanin|Vimentin|aSMA,5,B|Endothelial|Nerve|Plasma|Stroma,4786,5346
+ext_transfer:STELLAR_Intestine_B004->STELLAR_BarrettsEsophagus,26,BCL2|CD11c|CD138|CD15|CD163|CD206|CD21|CD3|CD31|CD34|CD36|CD38|CD4|CD45|CD56|CD57|CD68|CD8|CHGA|CK7|HLADRDPDQ|Keratin|MUC1|Podoplanin|Vimentin|aSMA,5,Endothelial|Nerve|Plasma|SmoothMuscle|Stroma,7697,9869

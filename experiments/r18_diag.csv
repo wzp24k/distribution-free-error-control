@@ -1,0 +1,5 @@
+dataset,n_cells,n_expert,expert_img,n_img,n_channels,sources,unmapped
+Breast_Jun0524,7610,7610,30,30,22,expert,
+CRC_Feb2623,94389,2505,8,35,56,expert|hq_all|hq_nonexpert|hq_ref,Neuron
+GVHD_Feb1323,175548,10283,48,84,38,expert|hq_all|hq_nonexpert|hq_ref,BrunnerGland|Endocrine|ImmuneOther|ImmuneOther_CD45RA|Macrophage_Calp|Mesenchymal|Muscle|NK|Neuroendocrine|Neuron|Neutrophil_CD15|Plasma_CD38
+Melanoma_Oct2522,21204,21204,10,10,39,expert,ImmuneOther|NK|Neuron

@@ -1,0 +1,13 @@
+pair,alpha10_coarse,alpha10_dense,alpha20_coarse,alpha20_dense
+breast->colorectal,0,0,1000,1000
+breast->GVHD,500,500,200,200
+breast->melanoma,0,0,0,0
+colorectal->breast,500,500,200,200
+colorectal->GVHD,500,500,500,250
+colorectal->melanoma,0,0,0,0
+GVHD->breast,1000,750,500,500
+GVHD->colorectal,0,0,500,500
+GVHD->melanoma,0,0,0,0
+melanoma->breast,2000,2000,500,500
+melanoma->colorectal,2000,1500,500,500
+melanoma->GVHD,500,500,500,250

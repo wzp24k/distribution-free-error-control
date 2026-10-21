@@ -1,0 +1,36 @@
+outcome,metric,estimate,lo,hi,n_boot,note
+outcome_k1000,oracle_auc,0.9490196078431372,0.8919566036641929,0.9917929292929293,4000,threshold 0.35
+outcome_k1000,ratio_auc,,,,0,threshold 0.35
+outcome_k1000,pilot_ratio_auc,,,,0,threshold 0.35
+outcome_k1000,ratio_ud_auc,0.5269607843137255,0.4621881977671452,0.5892857142857143,3913,threshold 0.35
+outcome_k1000,pilot_ratio_ud_auc,0.5221052631578948,0.44557239057239056,0.59,3913,threshold 0.35
+outcome_k1000,tpr,0.8627450980392157,0.7543859649122807,0.9583333333333334,4000,threshold 0.35
+outcome_k1000,tnr,0.9333333333333333,0.8148148148148148,1.0,4000,threshold 0.35
+outcome_k1000,accuracy,0.8888888888888888,0.7901234567901234,0.9753086419753086,4000,threshold 0.35
+outcome_k1000,lofo_tpr,0.8627450980392157,,,0,"thresholds 0.3725,0.3725,0.3725,0.3625,0.3725"
+outcome_k1000,lofo_tnr,0.9666666666666667,,,0,fold-wise threshold selection
+outcome_k1000,lofo_accuracy,0.9012345679012346,,,0,fold-wise threshold selection
+outcome_any,oracle_auc,0.9259259259259259,0.8556936115275695,0.9767232451448321,4000,threshold 0.35
+outcome_any,ratio_auc,,,,0,threshold 0.35
+outcome_any,pilot_ratio_auc,,,,0,threshold 0.35
+outcome_any,ratio_ud_auc,0.521164021164021,0.45183235867446386,0.5833333333333334,3913,threshold 0.35
+outcome_any,pilot_ratio_ud_auc,0.5169683257918553,0.4362223901906442,0.5859913793103448,3913,threshold 0.35
+outcome_any,tpr,0.8148148148148148,0.711864406779661,0.92,4000,threshold 0.35
+outcome_any,tnr,0.9259259259259259,0.8,1.0,4000,threshold 0.35
+outcome_any,accuracy,0.8518518518518519,0.7530864197530864,0.9382716049382716,4000,threshold 0.35
+outcome_any,lofo_tpr,0.8148148148148148,,,0,"thresholds 0.3725,0.3725,0.3725,0.3625,0.3725"
+outcome_any,lofo_tnr,0.9629629629629629,,,0,fold-wise threshold selection
+outcome_any,lofo_accuracy,0.8641975308641975,,,0,fold-wise threshold selection
+outcome_k1000,n_units,81.0,,,0,pilot 250 at alpha 0.20
+outcome_k1000,cert_accept_zero,80.0,,,0,pilot 250 at alpha 0.20
+outcome_k1000,ratio_zero_or_nan,80.0,,,0,deployment oracle ratio
+outcome_k1000,pilot_ratio_zero_or_nan,80.0,,,0,pilot-only ratio
+outcome_k1000,ratio_support,1.0,,,0,nonzero deployment ratios
+outcome_k1000,pilot_ratio_support,1.0,,,0,nonzero pilot-only ratios
+outcome_k1000,cert_accept_ud_zero,75.0,,,0,unlabelled-denominator certificate
+outcome_k1000,ratio_ud_zero_or_nan,75.0,,,0,unlabelled denominator
+outcome_k1000,pilot_ratio_ud_zero_or_nan,75.0,,,0,"pilot-only, unlabelled denominator"
+outcome_k1000,ratio_ud_support,6.0,,,0,nonzero unlabelled-denominator ratios
+outcome_k1000,pilot_ratio_ud_support,6.0,,,0,nonzero pilot-only unlabelled-denominator ratios
+outcome_k1000,policy_triage_minus_always_B_same_tissue_panel,-0.021578925939497562,-0.053711168112047625,0.0,4000,"pilot 250, repair adapt_k1000"
+outcome_k1000,policy_triage_minus_always_E_cross_platform_colon,0.06135096828706545,0.027537324365945727,0.09199067827793449,4000,"pilot 250, repair adapt_k1000"

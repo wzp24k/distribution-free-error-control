@@ -1,0 +1,5 @@
+cohort,n_fovs,n_labelled,n_matched,n_mask_segments,n_label_without_mask,n_mask_without_label,match_frac
+Breast_Jun0524,30,7610,7610,7610,0,0,1.0
+CRC_Feb2623,8,2505,2505,2606,0,101,1.0
+GVHD_Feb1323,48,10283,1794,9859,8489,8065,0.17446270543615677
+Melanoma_Oct2522,10,21204,21204,21204,0,0,1.0

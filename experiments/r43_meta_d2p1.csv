@@ -1,0 +1,2 @@
+tag,pin,tol,clfs,reps,seed,limit,n_rows,n_units,n_skipped,wall_s,finished,py_exe
+d2p1,1,0.0001,logreg,3,0,0,900,60,0,31.5,2026-09-28 21:43:45,C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe

@@ -1,0 +1,22 @@
+id,what,value,reference,tol,pass,expect_pass
+C1,demo segmented cells: errctl.data vs independent nonzero-label count over the segmentation masks,159516,159516,0.0,1,1
+C2,expert-labelled cells vs rows in Demo_Data/Labels/Labels.csv,3460,3460,0.0,1,1
+C3,"VALUE EQUALITY: min fraction of demo cells whose TIFF-derived means match the released <marker>__Mean__Cell values -- FAILS, the shipped TIFFs are 8-bit renderings (see C3b/C3c and L6)",0.049355550540384666,1.0,0.001,0,0
+C3b,"RANK AGREEMENT: min within-FOV Spearman between TIFF-derived means and the released values, over 40 markers x 75 FOVs",0.9999999999999998,0.999,0.001,1,1
+C3c,"SHIPPED DTYPE: every sampled demo marker TIFF is uint8, and so is every sampled benchmark Melanoma_Oct2522 marker TIFF (the cohort built by the same TIFF code path)",uint8:120,uint8:120,0.0,1,1
+C4,VALUE EQUALITY: min fraction of demo cells whose TIFF-derived means match the depot GVHD_Feb1323 CellTable -- FAILS for the same reason as C3,0.04942415352489783,1.0,0.001,0,0
+C4b,"the demo's labels are the depot's semi-supervised HighQuality labels: fraction identical on the shared cells, recomputed by merge instead of index intersection",0.9456140350877194,0.9456140350877194,1e-09,1,1
+C5,certificate re-derived longhand: evaluations whose chosen acceptance count differs from the shipped controller,0,0,0.0,1,1
+C6,certificate re-derived longhand: evaluations whose lambda_hat differs,0,0,0.0,1,1
+C7,the applied accepted set is exactly {s_test <= lambda_hat} for the longhand lambda,0,0,0.0,1,1
+C7b,lambda_hat is at least the k-th smallest calibration score (the chosen acceptance count),0,0,0.0,1,1
+C8,n_accepted / selective_risk / covered recomputed from the stored probabilities: mismatching evaluations,0,0,0.0,1,1
+C9,target features are standardised on the target domain: max |column mean| over transfer units,1.6626524123943076e-08,0.0,0.0001,1,1
+C10,target features are standardised on the target domain: max |column sd - 1|,3.719025987169999e-08,0.0,0.0001,1,1
+C11,"shared (FOV, cellID) cells vs each benchmark cohort: set logic vs pandas merge, max abs difference",0,0,0.0,1,1
+C12,shared FOVs with the benchmark: set logic vs pandas merge,38,38,0.0,1,1
+C13,prediction files evaluated vs rows in r34_runs.csv,105,105,0.0,1,1
+C14,coarse-map fallback cells: sum over the raw class counts of the classes absent from errctl.labels.COARSE_MAP,1328,1328,0.0,1,1
+C15,"ratio diagnostic: over-budget units the ratio fails to flag, family demo_transfer (must be 0)",2,0,0.0,0,1
+C16,within-family calibration pools are smaller than the benchmark's 2500-cell subsample (demo is too small),364.0,2500.0,0.0,1,1
+C17,"panel identity: the demo panel is exactly one benchmark cohort's panel (demo 40 markers vs GVHD 40, shared 40)",1,1,0.0,1,1

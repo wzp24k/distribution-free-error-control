@@ -1,0 +1,128 @@
+{
+ "1": {
+  "key": "M1",
+  "legacy": "figures/fig1_benchmark.png",
+  "png": "figures/svg/fig1_benchmark_full.png",
+  "stem": "fig1_benchmark",
+  "svg": "figures/svg/fig1_benchmark_full.svg"
+ },
+ "10": {
+  "key": "M7",
+  "legacy": "figures/fig7_review_budget.png",
+  "png": "figures/svg/fig7_review_budget_full.png",
+  "stem": "fig7_review_budget",
+  "svg": "figures/svg/fig7_review_budget_full.svg"
+ },
+ "11": {
+  "key": "M6",
+  "legacy": "figures/fig6_markers.png",
+  "png": "figures/svg/fig6_markers_full.png",
+  "stem": "fig6_markers",
+  "svg": "figures/svg/fig6_markers_full.svg"
+ },
+ "12": {
+  "key": "S2",
+  "legacy": "figures/figS3_marker_sensitivity.png",
+  "png": "figures/svg/figS3_marker_sensitivity_full.png",
+  "stem": "figS3_marker_sensitivity",
+  "svg": "figures/svg/figS3_marker_sensitivity_full.svg"
+ },
+ "13": {
+  "key": "S3",
+  "legacy": "figures/figS4_marker_sources.png",
+  "png": "figures/svg/figS4_marker_sources_full.png",
+  "stem": "figS4_marker_sources",
+  "svg": "figures/svg/figS4_marker_sources_full.svg"
+ },
+ "14": {
+  "key": "S5",
+  "legacy": "figures/figS6_accept_deferred.png",
+  "png": "figures/svg/figS6_accept_deferred_full.png",
+  "stem": "figS6_accept_deferred",
+  "svg": "figures/svg/figS6_accept_deferred_full.svg"
+ },
+ "15": {
+  "key": "M11",
+  "legacy": "figures/fig9_downstream.png",
+  "png": "figures/svg/fig9_downstream_full.png",
+  "stem": "fig9_downstream",
+  "svg": "figures/svg/fig9_downstream_full.svg"
+ },
+ "16": {
+  "key": "S7",
+  "legacy": "figures/figS8_repair.png",
+  "png": "figures/svg/figS8_repair_full.png",
+  "stem": "figS8_repair",
+  "svg": "figures/svg/figS8_repair_full.svg"
+ },
+ "17": {
+  "key": "S9",
+  "legacy": "figures/figS10_external.png",
+  "png": "figures/svg/figS10_external_full.png",
+  "stem": "figS10_external",
+  "svg": "figures/svg/figS10_external_full.svg"
+ },
+ "18": {
+  "key": "M12",
+  "legacy": "figures/fig11_decision_workflow.png",
+  "png": "figures/svg/fig11_decision_workflow_full.png",
+  "stem": "fig11_decision_workflow",
+  "svg": "figures/svg/fig11_decision_workflow_full.svg"
+ },
+ "2": {
+  "key": "M2",
+  "legacy": "figures/fig2_calibration.png",
+  "png": "figures/svg/fig2_calibration_full.png",
+  "stem": "fig2_calibration",
+  "svg": "figures/svg/fig2_calibration_full.svg"
+ },
+ "3": {
+  "key": "M4",
+  "legacy": "figures/fig4_coverage.png",
+  "png": "figures/svg/fig4_coverage_full.png",
+  "stem": "fig4_coverage",
+  "svg": "figures/svg/fig4_coverage_full.svg"
+ },
+ "4": {
+  "key": "M3",
+  "legacy": "figures/fig3_method.png",
+  "png": "figures/svg/fig3_method_full.png",
+  "stem": "fig3_method",
+  "svg": "figures/svg/fig3_method_full.svg"
+ },
+ "5": {
+  "key": "M5",
+  "legacy": "figures/fig5_efficiency.png",
+  "png": "figures/svg/fig5_efficiency_full.png",
+  "stem": "fig5_efficiency",
+  "svg": "figures/svg/fig5_efficiency_full.svg"
+ },
+ "6": {
+  "key": "S4",
+  "legacy": "figures/figS5_weight_shift.png",
+  "png": "figures/svg/figS5_weight_shift_full.png",
+  "stem": "figS5_weight_shift",
+  "svg": "figures/svg/figS5_weight_shift_full.svg"
+ },
+ "7": {
+  "key": "M8",
+  "legacy": "figures/fig8_label_ladder.png",
+  "png": "figures/svg/fig8_label_ladder_full.png",
+  "stem": "fig8_label_ladder",
+  "svg": "figures/svg/fig8_label_ladder_full.svg"
+ },
+ "8": {
+  "key": "M9",
+  "legacy": "figures/fig10_yield.png",
+  "png": "figures/svg/fig10_yield_full.png",
+  "stem": "fig10_yield",
+  "svg": "figures/svg/fig10_yield_full.svg"
+ },
+ "9": {
+  "key": "S6",
+  "legacy": "figures/figS7_fixedseq.png",
+  "png": "figures/svg/figS7_fixedseq_full.png",
+  "stem": "figS7_fixedseq",
+  "svg": "figures/svg/figS7_fixedseq_full.svg"
+ }
+}

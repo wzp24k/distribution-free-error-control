@@ -1,0 +1,10 @@
+cohort,bench_expert_fovs,shared_fovs,bench_expert_cells,shared_cells,shared_cells_identical_class
+Breast_Jun0524,30.0,0.0,,,
+CRC_Feb2623,8.0,0.0,,,
+GVHD_Feb1323,48.0,38.0,,,
+Melanoma_Oct2522,10.0,0.0,,,
+ALL_BENCH,96.0,38.0,,,
+Breast_Jun0524,,,7450.0,0.0,0.0
+CRC_Feb2623,,,2397.0,0.0,0.0
+GVHD_Feb1323,,,9504.0,142.0,58.0
+Melanoma_Oct2522,,,20333.0,0.0,0.0

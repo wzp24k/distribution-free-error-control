@@ -1,0 +1,52 @@
+check,what,value,reference,PASS
+ext2_panelswap EXT2_LiverTx_IMC a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_panelswap EXT2_LiverTx_IMC a=0.05 vacuous,fraction of evaluations with an empty accepted set,0.866667,"reported, not asserted",1
+ext2_panelswap EXT2_LiverTx_IMC a=0.10 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_panelswap EXT2_LiverTx_IMC a=0.10 vacuous,fraction of evaluations with an empty accepted set,0.666667,"reported, not asserted",1
+ext2_panelswap EXT2_LiverTx_IMC a=0.20 coverage,coverage over evaluations,0.666667,>= 1 - delta = 0.90,0
+ext2_panelswap EXT2_LiverTx_IMC a=0.20 vacuous,fraction of evaluations with an empty accepted set,0.333333,"reported, not asserted",1
+ext2_panelswap EXT2_MIBITOF_Angelo a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_panelswap EXT2_MIBITOF_Angelo a=0.05 vacuous,fraction of evaluations with an empty accepted set,1.0,"reported, not asserted",1
+ext2_panelswap EXT2_MIBITOF_Angelo a=0.10 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_panelswap EXT2_MIBITOF_Angelo a=0.10 vacuous,fraction of evaluations with an empty accepted set,1.0,"reported, not asserted",1
+ext2_panelswap EXT2_MIBITOF_Angelo a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_panelswap EXT2_MIBITOF_Angelo a=0.20 vacuous,fraction of evaluations with an empty accepted set,0.666667,"reported, not asserted",1
+ext2_within EXT2_LiverTx_IMC a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within EXT2_LiverTx_IMC a=0.05 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within EXT2_LiverTx_IMC a=0.10 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within EXT2_LiverTx_IMC a=0.10 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within EXT2_LiverTx_IMC a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within EXT2_LiverTx_IMC a=0.20 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within EXT2_MIBITOF_Angelo a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within EXT2_MIBITOF_Angelo a=0.05 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within EXT2_MIBITOF_Angelo a=0.10 coverage,coverage over evaluations,0.993333,>= 1 - delta = 0.90,1
+ext2_within EXT2_MIBITOF_Angelo a=0.10 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within EXT2_MIBITOF_Angelo a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within EXT2_MIBITOF_Angelo a=0.20 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within_shared EXT2_LiverTx_IMC a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within_shared EXT2_LiverTx_IMC a=0.05 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within_shared EXT2_LiverTx_IMC a=0.10 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within_shared EXT2_LiverTx_IMC a=0.10 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within_shared EXT2_LiverTx_IMC a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within_shared EXT2_LiverTx_IMC a=0.20 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within_shared EXT2_MIBITOF_Angelo a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within_shared EXT2_MIBITOF_Angelo a=0.05 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within_shared EXT2_MIBITOF_Angelo a=0.10 coverage,coverage over evaluations,0.993333,>= 1 - delta = 0.90,1
+ext2_within_shared EXT2_MIBITOF_Angelo a=0.10 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+ext2_within_shared EXT2_MIBITOF_Angelo a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext2_within_shared EXT2_MIBITOF_Angelo a=0.20 vacuous,fraction of evaluations with an empty accepted set,0.0,"reported, not asserted",1
+split fraction,mean n_cal_used / n_cal_pool,0.499997,0.5 to within the integer rounding of a split,1
+repeats per cell,"distinct calibration repeats per (unit, clf, alpha)",10.0,10,1
+delta,certificate confidence level,0.1,0.1,1
+pool cap,largest test pool,20000.0,<= 20000,1
+ext2_panelswap units,distinct evaluation units,2.0,5 folds x 3 classifiers where applicable,1
+ext2_within units,distinct evaluation units,10.0,5 folds x 3 classifiers where applicable,1
+ext2_within_shared units,distinct evaluation units,10.0,5 folds x 3 classifiers where applicable,1
+panel overlap EXT2_MIBITOF_Angelo vs Breast_Jun0524,shared channels,8.0,>= 2,1
+panel overlap EXT2_MIBITOF_Angelo vs CRC_Feb2623,shared channels,13.0,>= 2,1
+panel overlap EXT2_MIBITOF_Angelo vs GVHD_Feb1323,shared channels,12.0,>= 2,1
+panel overlap EXT2_MIBITOF_Angelo vs Melanoma_Oct2522,shared channels,11.0,>= 2,1
+panel overlap EXT2_LiverTx_IMC vs Breast_Jun0524,shared channels,5.0,>= 2,1
+panel overlap EXT2_LiverTx_IMC vs CRC_Feb2623,shared channels,8.0,>= 2,1
+panel overlap EXT2_LiverTx_IMC vs GVHD_Feb1323,shared channels,8.0,>= 2,1
+panel overlap EXT2_LiverTx_IMC vs Melanoma_Oct2522,shared channels,6.0,>= 2,1

@@ -1,0 +1,16 @@
+check,what,value,reference,PASS
+ext_cellsplit a=0.05 coverage,coverage over evaluations,0.993333,>= 1 - delta = 0.90,1
+ext_cellsplit a=0.10 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext_cellsplit a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext_targetcal a=0.05 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext_targetcal a=0.10 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+ext_targetcal a=0.20 coverage,coverage over evaluations,1.0,>= 1 - delta = 0.90,1
+split fraction,mean n_cal_used / n_cal_pool,0.5,0.5,1
+repeats per cell,"evaluations per (unit, clf, alpha)",10,10,1
+delta,certificate confidence level,0.1,0.1,1
+pool cap,largest pool,20000,<= 20000,1
+intestine images,B004 images,8,8,1
+intestine classes,B004 expert classes,21,21,1
+units,distinct evaluation units (fold x cohort),7,7,1
+unit x clf cells,evaluations per budget,210,210,1
+all three transforms,coverage 1.000 at a 10% budget,True,True,1

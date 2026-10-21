@@ -1,0 +1,11 @@
+id,what,value,reference,tol,pass,expect_pass
+X1,downloaded file B004_training_dryad.csv: md5 and size vs the published Zenodo checksum,c52671c4bf1edd1357709aec83cfb836,c52671c4bf1edd1357709aec83cfb836,0.0,1,1
+X2,B004_training_dryad.csv: rows parsed vs an independent line count of the shipped CSV (-1 for the header),248285,248285,0.0,1,1
+X3,B004_training_dryad.csv: markers parsed vs the header fields minus the index and the meta columns,48,48,0.0,1,1
+X4,downloaded file BE_Tonsil_l3_dryad.csv: md5 and size vs the published Zenodo checksum,a274fe7dab20e0e4a41339962cabee26,a274fe7dab20e0e4a41339962cabee26,0.0,1,1
+X5,BE_Tonsil_l3_dryad.csv: rows parsed vs an independent line count of the shipped CSV (-1 for the header),219926,219926,0.0,1,1
+X6,BE_Tonsil_l3_dryad.csv: markers parsed vs the header fields minus the index and the meta columns,44,44,0.0,1,1
+X7,phase-2 certificate re-derived longhand: evaluations whose chosen acceptance count / lambda / mask differ,0,0,0.0,1,1
+X8,phase-2 n_accepted / selective_risk / covered recomputed from the stored probabilities: mismatching evaluations,0,0,0.0,1,1
+X9,phase-2 transfer target features standardised on the target domain: max |column mean| and |sd - 1|,7.72981399386949e-09,0.0,0.0001,1,1
+X10,phase-2 cross-platform transfer units with a usable shared panel (>= 5 markers); ext_transfer->STELLAR_Tonsil n=26; ext_transfer->STELLAR_BarrettsEsophagus n=26,2,2,0.0,1,1

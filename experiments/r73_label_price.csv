@@ -1,0 +1,30 @@
+block,quantity,value,detail
+weights,pair_folds,60,
+weights,ess_fraction_median,0.3651370597102851,
+weights,ess_fraction_q10,0.1039525560371672,
+weights,ess_fraction_q90,0.6739572254521299,
+weights,w_p99_median,4.3741186126441285,
+weights,w_max_median,5.886010426107018,
+weights,w_max_max,34.26261197427274,
+weights,implied_second_moment_median,2.73869762985286,1/(ESS/n) under mean-one weights
+certificate,alpha_0.05_units,180,
+certificate,alpha_0.05_nonvacuous,1,
+certificate,alpha_0.05_ess_star_ratio_median,2.124684214122593,
+certificate,alpha_0.05_ess_obs_median,966.1405941853344,
+certificate,alpha_0.05_rho_star_median,0.22000310881271046,
+certificate,alpha_0.10_units,180,
+certificate,alpha_0.10_nonvacuous,30,
+certificate,alpha_0.10_ess_star_ratio_median,2.2291842429238917,
+certificate,alpha_0.10_ess_obs_median,966.1405941853344,
+certificate,alpha_0.10_rho_star_median,0.22000310881271046,
+certificate,alpha_0.20_units,180,
+certificate,alpha_0.20_nonvacuous,80,
+certificate,alpha_0.20_ess_star_ratio_median,2.6189559432425398,
+certificate,alpha_0.20_ess_obs_median,966.1405941853344,
+certificate,alpha_0.20_rho_star_median,0.22000310881271046,
+lower_bound,alpha_0.05_bernoulli_kl,0.005061579322644984,"theta0=alpha, theta1=1.5 alpha"
+lower_bound,alpha_0.05_informative_labels,317.97148870781126,"delta=0.10, two-point test"
+lower_bound,alpha_0.10_bernoulli_kl,0.01089606164513731,"theta0=alpha, theta1=1.5 alpha"
+lower_bound,alpha_0.10_informative_labels,147.70822383813876,"delta=0.10, two-point test"
+lower_bound,alpha_0.20_bernoulli_kl,0.025732092477985316,"theta0=alpha, theta1=1.5 alpha"
+lower_bound,alpha_0.20_informative_labels,62.54594000899963,"delta=0.10, two-point test"

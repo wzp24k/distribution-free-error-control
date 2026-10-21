@@ -1,0 +1,14 @@
+# Byte fidelity over EOL normalisation.  Several released tables and documents
+# are pinned by md5 in docs/manuscript_number_audit.md, so git must store and
+# restore them byte for byte: no CRLF conversion anywhere.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.docx binary
+*.npz binary
+*.npy binary
+*.parquet binary
+*.pth binary
